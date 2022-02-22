@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap");
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #DEEDFA;
+            box-shadow: inset 0 0 6px #3E9AF0;
+}
+  
+
+body::-webkit-scrollbar-thumb {
+  background-color: #f7cb52;
+  outline: 2.5px solid #3E9AF0;
+  border-radius: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Jura', sans-serif;
+}
+
+body {
+  background: #DEEDFA;
+  min-width: 200px;
+}
+
+.title {
+  margin: 5% 25% 0 25%;
+  width: 50%;
+  height: 50%;
+}
+
+.general {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 10vh 10vw 10vh 10vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.general--poke {
+  margin: 10px;
+}
+
+.general--poke--writing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2vh 0 1vh 0;
+}
+
+.general--poke--writing--number {
+  border: 2px solid #8E4DF7;
+  background-color: #CCB1F8;
+  border-radius: 10px 0 10px 0;
+  margin: 0 10px 0 0;
+  padding: 5px 10px 5px 20px;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.general--poke--writing--name {
+  border: 2px solid #A6EF54;
+  background-color: #DBF7BC;
+  border-radius: 0 10px 0 10px;
+  padding: 5px 20px 5px 10px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.general--poke--pokeball {
+  background-image: url("./images/Pokeball_Background_Blue.png");
+  background-size: cover;
+  height: 240px;
+  width: 240px;
+  border: 3px solid #3E9AF0;
+  border-radius: 40px;
+}
+
+.general--poke--pokeball--image {
+  position: relative;
+  top: 30px;
+  left: 20px;
+  height: 200px;
+}
+
+.general--poke--types {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.general--poke--types--type {
+  margin: 5px 10px 0 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.normal {
+  background-color: #c4c4c4;
+  border: 1px solid #c4c4c4;
+  color: whitesmoke;
+}
+
+.fire {
+  background-color: #e83e0b;
+  border: 1px solid #e83e0b;
+  color: whitesmoke;
+}
+
+.water {
+  background-color: #3d99f9;
+  border: 1px solid #3d99f9;
+  color: whitesmoke;
+}
+
+.grass {
+  background-color: #70c236;
+  border: 1px solid #70c236;
+  color: whitesmoke;
+}
+
+.poison {
+  background-color: #883f8a;
+  border: 1px solid #883f8a;
+  color: whitesmoke;
+}
+
+.flying {
+  background-color: #8695d4;
+  border: 1px solid #8695d4;
+  color: whitesmoke;
+}
+
+.bug {
+  background-color: #aabb20;
+  border: 1px solid #aabb20;
+  color: whitesmoke;
+}
+
+.electric {
+  background-color: #f7cb52;
+  border: 1px solid #f7cb52;
+  color: whitesmoke;
+}
+
+.fighting {
+  background-color: #7e3219;
+  border: 1px solid #7e3219;
+  color: whitesmoke;
+}
+
+.ghost {
+  background-color: #5d60ab;
+  border: 1px solid #5d60ab;
+  color: whitesmoke;
+}
+
+.psychic {
+  background-color: #e9497f;
+  border: 1px solid #e9497f;
+  color: whitesmoke;
+}
+
+.ground {
+  background-color: #d3b45b;
+  border: 1px solid #d3b45b;
+  color: whitesmoke;
+}
+
+.fairy {
+  background-color: #f2aef5;
+  border: 1px solid #f2aef5;
+  color: whitesmoke;
+}
+
+.rock {
+  background-color: #b49d55;
+  border: 1px solid #b49d55;
+  color: whitesmoke;
+}
+
+.steel {
+  background-color: #9d9cac;
+  border: 1px solid #9d9cac;
+  color: whitesmoke;
+}
+
+.ice {
+  background-color: #6bd4f3;
+  border: 1px solid #6bd4f3;
+  color: whitesmoke;
+}
+
+.dragon {
+  background-color: #6b3bf2;
+  border: 1px solid #6b3bf2;
+  color: whitesmoke;
+}
+/*# sourceMappingURL=PokeProject.css.map */

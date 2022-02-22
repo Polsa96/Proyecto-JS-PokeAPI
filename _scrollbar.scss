@@ -1,0 +1,20 @@
+//SCROLLBAR EDIT
+
+body::-webkit-scrollbar {
+    width: 1em;
+    @media(max-width: $phone){
+        display: none;
+    }
+  }
+  
+  body::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px #DEEDFA;
+              box-shadow: inset 0 0 6px #3E9AF0;
+  }
+    
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #f7cb52;
+    outline: 2.5px solid #3E9AF0;
+    border-radius: 10px;
+  }

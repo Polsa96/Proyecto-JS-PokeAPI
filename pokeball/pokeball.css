@@ -1,0 +1,53 @@
+.contorn {
+  position: relative;
+  background-color: #3E9AF0;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+.contorn-ext {
+  position: absolute;
+  background-color: #B6D9FA;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  top: 50px;
+  left: 50px;
+}
+
+.contorn-ext--int {
+  position: absolute;
+  background-color: #3E9AF0;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  top: 10px;
+  left: 10px;
+}
+
+.contorn-ext--int--img {
+  position: absolute;
+  top: -25px;
+  left: -25px;
+}
+
+.contorn-ext--int--img img {
+  width: 150px;
+}
+
+.contorn-straight {
+  position: absolute;
+  background-color: #B6D9FA;
+  width: 200px;
+  height: 10px;
+  top: 95px;
+}
+
+.hello {
+  width: 240px;
+  border: 1px solid #ccc;
+  background-color: #B6D9FA;
+}
+/*# sourceMappingURL=pokeball.css.map */

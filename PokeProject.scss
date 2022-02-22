@@ -1,0 +1,118 @@
+// @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap');
+@import "scrollbar";
+@import "pokemonTypes";
+@import "variables";
+//de repente fallan las importaciones, no se pq
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+    // font-family: 'Lato', sans-serif;
+    font-family: 'Jura', sans-serif;
+    
+}
+
+body{
+    background:#DEEDFA;
+    min-width: 200px;
+    
+}
+
+.title{
+    margin:5% 25% 0 25%;
+    width:50%;
+    height:50%;
+}
+
+.general{
+    display:flex;
+    flex-wrap: wrap;
+    margin:10vh 10vw 10vh 10vw;
+    justify-content: space-between;
+
+    @media(max-width: $tablet){
+        justify-content: center;
+    }
+
+   
+
+    &--poke{
+        
+        margin:10px;
+         &--writing{
+             display: flex;
+             justify-content:center;
+
+             margin: 2vh 0 1vh 0;
+
+            &--number{
+                border:2px solid #8E4DF7;
+                background-color:#CCB1F8;
+                // border-right: 2px solid #CCB1F8;
+                // border-bottom: 2px solid #CCB1F8;
+                border-radius: 10px 0 10px 0;
+                margin: 0 10px 0 0 ;
+                padding: 5px 10px 5px 20px;
+                font-weight:700;
+                font-size: 1.5rem;
+            }
+    
+            &--name{
+                border:2px solid #A6EF54;
+                background-color:#DBF7BC;
+                // border-left: 1px solid black;
+                // border-bottom: 1px solid black;
+                border-radius: 0 10px 0 10px;
+                padding: 5px 20px 5px 10px;
+                font-weight:700;
+                font-size: 1.5rem;
+                text-transform:capitalize;
+            }
+         }
+       
+        
+
+
+        &--pokeball{
+            background-image: url('./images/Pokeball_Background_Blue.png');
+            background-size: cover;
+            height:240px;
+            width:240px;
+            border:3px solid #3E9AF0;
+            border-radius:40px;
+
+            &--image{
+                position: relative;
+                top:30px;
+                left:20px;
+                height:200px;
+                // border: 1px solid black;
+            }
+            
+        }
+
+        &--types{
+            width:100%;
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+
+
+            &--type{
+                margin:5px 10px 0 10px;
+                padding:5px 10px;
+                border-radius:10px;
+                text-transform:uppercase;
+                font-weight:700;
+            }
+
+        }
+
+
+    }
+}
+
